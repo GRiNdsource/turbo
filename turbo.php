@@ -1,5 +1,4 @@
 <?php
-// BY - BRoK @i_BRK - @x_BRK //
 if (!file_exists('madeline.php')) {
 copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -19,7 +18,7 @@ $updates = $MadelineProto->channels->createChannel(['broadcast' => true, 'megagr
 }
 $BRoKK = 0;
 $start = time();
-$x_BRK = "@x_BRK";
+$x_BRK = "@uuunr";
 do{
 $url = "https://xarmof3.ml/apii.php?user=";
 $a = $url.$i_BRK;
@@ -36,18 +35,17 @@ if($teyp == "Account"){
 $MadelineProto->account->updateUsername(['username' => $i_BRK, ]);
 }
 $end = time() - $start;
-$MadelineProto->messages->sendMessage(['peer' => $x_BRK, 'message' => "- Hi BRoK,
+$MadelineProto->messages->sendMessage(['peer' => $x_BRK, 'message' => "- Hi Muslim,
 - - - - - - -
 - Done Move This User => @$i_BRK
 - Count of clicks => $BRoKK
 - Time taken : $end Seconds
 - Was moved to : $teyp
 - - - - - - -
-- BY : @i_BRK"]);
+- BY : @GreatMusliim"]);
 exit;
 echo '@'.$i_BRK." Done .!\n";
 }
 $BRoKK++;
 echo '@'.$i_BRK. " - >" .$BRoKK. " -> " .date('i:s'). "\n";
 }while(true);
-// BY - BRoK @i_BRK - @x_BRK //
